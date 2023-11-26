@@ -1,0 +1,13 @@
+{
+  "firestore": {
+    "rules": "y",
+    "indexes": "y"
+  },
+  "hosting": [
+    {
+      "target": "project-app",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

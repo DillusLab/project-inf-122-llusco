@@ -1,0 +1,16 @@
+<header class="text-gray-600 body-font bg-slate-300">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <img class="object-scale-down object-center rounded w-20" alt="hero" src="https://t3.ftcdn.net/jpg/03/18/92/30/360_F_318923048_286E3RussArGz193YXQpIXYVJ4blRntK.jpg" alt="icon">
+      
+      <span class="ml-3 text-xl">Dilus.co</span>
+    </a>
+    <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+      <a class="mr-5 hover:text-gray-900">{{ email }}</a>
+    </nav>
+    <button (click)="logout()"
+      class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+      Cerrar sesión
+    </button>
+  </div>
+</header>
